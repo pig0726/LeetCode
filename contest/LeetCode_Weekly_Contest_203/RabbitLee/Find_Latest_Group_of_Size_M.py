@@ -1,3 +1,6 @@
+"""
+back-forward: O(nlogn)
+"""
 class Solution:
     def findLatestStep(self, arr: List[int], m: int) -> int:
         n = len(arr)
@@ -32,4 +35,47 @@ class Solution:
             else:
                 left = mid + 1
         return left
+
+"""
+Union Find: O(n)
+"""
+class Solution:
+    class UnionFind:
+        def __init__(self, n: int):
+            self.parent = list(range(n))
+            self.rank = [0] * n
+        def find(self, u: int):
+            self.parent[u] = self.find(self.parent[u]) if self.parent[u] != u else u
+            return self.parent[u]
+        def union(self, u: int, v: int) -> bool:
+            pu, pv = self.find(u), self.find(v)     # parent of u, v
+            if pu == pv:
+                return False
+            if self.rank[pu] > self.rank[pv]:
+                self.parent[pv] = pu
+                self.rank[pu] += self.rank[pv]
+            else:
+                self.parent[pu] = pv
+                self.rank[pv] += self.rank[pu]
+            return True
+    
+    def findLatestStep(self, arr: List[int], m: int) -> int:
+        n = len(arr)
+        uf = self.UnionFind(n)
+        ans = -1
+        for step, position in enumerate(arr):
+            position -= 1
+            uf.rank[position] = 1
+            for neigh in (position - 1, position + 1):
+                if not 0 <= neigh < n:
+                    continue
+                if uf.rank[neigh] > 0:
+                    if uf.rank[uf.find(neigh)] == m:
+                        ans = step
+                    uf.union(position, neigh)
+        for position in range(n):
+            if uf.rank[uf.find(position)] == m:
+                ans = n
+                break
+        return ans
 
