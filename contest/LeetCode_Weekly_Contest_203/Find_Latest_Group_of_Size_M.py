@@ -44,7 +44,7 @@ class Solution:
         def __init__(self, n: int):
             self.parent = list(range(n))
             self.rank = [0] * n
-        def find(self, u: int):
+        def find(self, u: int) -> int:
             self.parent[u] = self.find(self.parent[u]) if self.parent[u] != u else u
             return self.parent[u]
         def union(self, u: int, v: int) -> bool:

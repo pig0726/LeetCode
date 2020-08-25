@@ -1,7 +1,6 @@
 class Solution:
     def stoneGameV(self, stoneValue: List[int]) -> int:
         n = len(stoneValue)
-        f = [[0 for j in range(n)] for i in range(n)]
         s = [0]
         for v in stoneValue:
             s.append(s[-1] + v)
