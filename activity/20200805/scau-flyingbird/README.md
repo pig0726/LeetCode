@@ -10,7 +10,7 @@
 | 6    | https://leetcode.com/problems/simplify-path/                 | String, Stack            | medium |                                                              |
 | 7    | https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ | Math                     | easy   | [✅](SubtractTheProductAndSumOfDigitsOfAnInteger.go) |
 | 8    | https://leetcode.com/problems/self-dividing-numbers/         | Math                     | easy   |                                                              |
-| 9    | https://leetcode.com/problems/count-primes/                  | Math                     | easy   |                                                              |
+| 9    | https://leetcode.com/problems/count-primes/                  | Math                     | easy   |  [✅](Count_Primes.go)                                                            |
 | 10   | https://leetcode.com/problems/letter-tile-possibilities/     | Backtracking             | medium |                                                              |
 | 11   | https://leetcode.com/problems/path-with-maximum-gold/        | Backtracking             | medium |                                                              |
 | 12   | https://leetcode.com/problems/merge-intervals/               | Sort                     | medium |                                                              |
