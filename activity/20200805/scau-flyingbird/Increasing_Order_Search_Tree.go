@@ -1,12 +1,11 @@
 /**
  * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
  */
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func walk(root *TreeNode, ch chan int) {
 	if root == nil {
 		return
@@ -27,9 +26,8 @@ func increasingBST(root *TreeNode) *TreeNode {
 	ordered := &TreeNode{}
 	head := ordered
 	for c := range ch {
-		t := &TreeNode{c, nil, nil}
-		ordered.Right = t
+		ordered.Right = &TreeNode{c, nil, nil}
 		ordered = ordered.Right
 	}
-	return head
+	return head.Right
 }
