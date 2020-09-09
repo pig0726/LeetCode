@@ -18,7 +18,7 @@
 | 14   | https://leetcode.com/problems/squares-of-a-sorted-array/     | Tow Pointer              | easy   |                                                              |
 | 15   | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Tow Pointer              | easy   |                                                              |
 | 16   | https://leetcode.com/problems/move-zeroes/                   | Two Pointer              | easy   | [✅](MoveZeroes.go) |
-| 17   | https://leetcode.com/problems/increasing-order-search-tree/  | Depth-first-Search       | easy   |                                                              |
+| 17   | https://leetcode.com/problems/increasing-order-search-tree/  | Depth-first-Search       | easy   | [✅](Increasing_Order_Search_Tree.go)                                                           |
 | 18   | https://leetcode.com/problems/leaf-similar-trees/            | Tree, Depth-first-Search | easy   |                                                              |
 | 19   | https://leetcode.com/problems/single-number/                 | Bit Manipulation         | easy   | [✅](Single_Number.go)                                                             |
 | 20   | https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ | Bit Manipulation         | easy   |                                                              |
