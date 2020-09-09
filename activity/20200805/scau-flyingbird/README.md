@@ -21,6 +21,6 @@
 | 17   | https://leetcode.com/problems/increasing-order-search-tree/  | Depth-first-Search       | easy   | [✅](Increasing_Order_Search_Tree.go)                                                           |
 | 18   | https://leetcode.com/problems/leaf-similar-trees/            | Tree, Depth-first-Search | easy   |                                                              |
 | 19   | https://leetcode.com/problems/single-number/                 | Bit Manipulation         | easy   | [✅](Single_Number.go)                                                             |
-| 20   | https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ | Bit Manipulation         | easy   |                                                              |
+| 20   | https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ | Bit Manipulation         | easy   | [✅](Convert_Binary_Number_In_A_Linked_List_To_Integer.go)                                                           |
 | 21   | https://leetcode.com/problems/number-of-1-bits/              | Bit Manipulation         | easy   |                                                              |
 | 22   | https://leetcode.com/problems/find-smallest-letter-greater-than-target/ | Binary Search            | easy   |                                                              |
