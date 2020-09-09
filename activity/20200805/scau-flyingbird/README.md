@@ -23,4 +23,4 @@
 | 19   | https://leetcode.com/problems/single-number/                 | Bit Manipulation         | easy   | [✅](Single_Number.go)                                                             |
 | 20   | https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ | Bit Manipulation         | easy   | [✅](Convert_Binary_Number_In_A_Linked_List_To_Integer.go)                                                           |
 | 21   | https://leetcode.com/problems/number-of-1-bits/              | Bit Manipulation         | easy   | [✅](Number_Of_1_Bits.go)                                                             |
-| 22   | https://leetcode.com/problems/find-smallest-letter-greater-than-target/ | Binary Search            | easy   |                                                              |
+| 22   | https://leetcode.com/problems/find-smallest-letter-greater-than-target/ | Binary Search            | easy   | [✅](Find_Smallest_Letter_Greater_Than_Target.go)                                                             |
