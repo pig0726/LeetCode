@@ -1,14 +1,17 @@
-int p[1005];
-int e[1000005][3];
-int idx[1000005];
-
 class Solution {
 public:
+    struct Edge {
+        int u, v, w;
+    };
+    
     int n = 0;
-     
+    Edge e[1000005];
+    vector<int> p;
+    
     int find(int u) {
         return u == p[u] ? u : p[u] = find(p[u]);
     }
+    
     int minCostConnectPoints(vector<vector<int>>& points) {
         n = points.size();
         
@@ -18,18 +21,19 @@ public:
                 int xi = points[i][0], yi = points[i][1];
                 int xj = points[j][0], yj = points[j][1];
                 int dist = abs(xi - xj) + abs(yi - yj);
-                e[k][0] = i, e[k][1] = j, e[k][2] = dist;
-                idx[k] = k;
-                k++;
+                e[k++] = Edge{i, j, dist};
             }
-        sort(idx, idx+k, [](int i, int j) { return e[i][2] < e[j][2]; });
         
+        sort(e, e + k, [](const Edge& a, const Edge& b) { 
+            return a.w < b.w; 
+        });
+        
+        p.resize(n);
         for (int i = 0; i < n; ++i) p[i] = i;
         
         int ret = 0;
         for (int i = 0; i < k; ++i) {
-            int ith = idx[i];
-            int u = e[ith][0],  v = e[ith][1], w = e[ith][2];
+            int u = e[i].u,  v = e[i].v, w = e[i].w;
             int pu = find(u);
             int pv = find(v);
             if (pu == pv) continue;
