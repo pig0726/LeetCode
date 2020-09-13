@@ -1,16 +1,13 @@
 class Solution {
 public:
-    int minpos[10];
     vector<int> pos[10];
     int n;
     bool isTransformable(string s, string t) {
         n = s.length();
-        for (int i = 0; i < 10; ++i) minpos[i] = n+1;
         
         for (int i = 0; i < n; ++i) {
             int idx = s[i] - '0';
             pos[idx].push_back(i);
-            minpos[idx] = min(minpos[idx], i);
         }
         
         vector<int> p(10, 0);
