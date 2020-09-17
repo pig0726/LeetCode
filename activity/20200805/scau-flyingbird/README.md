@@ -15,7 +15,7 @@
 | 11   | https://leetcode.com/problems/path-with-maximum-gold/        | Backtracking             | medium |                                                              |
 | 12   | https://leetcode.com/problems/merge-intervals/               | Sort                     | medium |                                                              |
 | 13   | https://leetcode.com/problems/shuffle-string/                | Sort                     | easy   | [✅](ShuffleString.go) |
-| 14   | https://leetcode.com/problems/squares-of-a-sorted-array/     | Tow Pointer              | easy   |                                                              |
+| 14   | https://leetcode.com/problems/squares-of-a-sorted-array/     | Tow Pointer              | easy   | [✅](SquaresOfASortedArray.go)                                                             |
 | 15   | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Tow Pointer              | easy   |                                                              |
 | 16   | https://leetcode.com/problems/move-zeroes/                   | Two Pointer              | easy   | [✅](MoveZeroes.go) |
 | 17   | https://leetcode.com/problems/increasing-order-search-tree/  | Depth-first-Search       | easy   | [✅](Increasing_Order_Search_Tree.go)                                                           |
