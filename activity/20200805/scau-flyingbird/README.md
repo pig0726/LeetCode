@@ -4,7 +4,7 @@
 | ---- | ------------------------------------------------------------ | ------------------------ | ------ | ------------------------------------------------------------ |
 | 1    | https://leetcode.com/problems/running-sum-of-1d-array/       | Array                    | easy   | [✅](Running_Sum_Of_1d_Array.go) |
 | 2    | https://leetcode.com/problems/two-sum/                       | Array                    | easy   | [✅](Two_Sum.go) |
-| 3    | https://leetcode.com/problems/3sum/                          | Array                    | medium |                                                              |
+| 3    | https://leetcode.com/problems/3sum/                          | Array                    | medium | [✅](3_Sum.go)                                  |
 | 4    | https://leetcode.com/problems/same-tree/                     | Tree                     | easy   | [✅](Same_tree.go) |
 | 5    | https://leetcode.com/problems/symmetric-tree/                | Tree                     | easy   | [✅](Symmetric_tree.go) |
 | 6    | https://leetcode.com/problems/simplify-path/                 | String, Stack            | medium |                                                              |
