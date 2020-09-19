@@ -7,7 +7,7 @@
 | 3    | https://leetcode.com/problems/3sum/                          | Array                    | medium | [✅](3_Sum.go)                                  |
 | 4    | https://leetcode.com/problems/same-tree/                     | Tree                     | easy   | [✅](Same_tree.go) |
 | 5    | https://leetcode.com/problems/symmetric-tree/                | Tree                     | easy   | [✅](Symmetric_tree.go) |
-| 6    | https://leetcode.com/problems/simplify-path/                 | String, Stack            | medium |                                                              |
+| 6    | https://leetcode.com/problems/simplify-path/                 | String, Stack            | medium | [✅](Simplify_Path.go)  |
 | 7    | https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ | Math                     | easy   | [✅](SubtractTheProductAndSumOfDigitsOfAnInteger.go) |
 | 8    | https://leetcode.com/problems/self-dividing-numbers/         | Math                     | easy   | [✅](Self_Dividing_Numbers.go)                                                             |
 | 9    | https://leetcode.com/problems/count-primes/                  | Math                     | easy   | [✅](Count_Primes.go)                                                            |
