@@ -1,7 +1,3 @@
-package main
-
-import "strings"
-
 func simplifyPath(path string) string {
 	strPath := strings.Split(path, "/")
 
@@ -22,6 +18,4 @@ func simplifyPath(path string) string {
 	}
 
 	return "/" + strings.Join(simpPath, "/")
-
-	return ""
 }
