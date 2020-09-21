@@ -22,7 +22,7 @@
 | 6    | https://leetcode.com/problems/simplify-path/                 | String, Stack            | medium |
 | 7    | https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ | Math                     | easy   |
 | 8    | https://leetcode.com/problems/self-dividing-numbers/         | Math                     | easy   |
-| 9    | https://leetcode.com/problems/self-dividing-numbers/         | Math                     | easy   |
+| 9    | https://leetcode.com/problems/count-primes/                  | Math                     | easy   |
 | 10   | https://leetcode.com/problems/letter-tile-possibilities/     | Backtracking             | medium |
 | 11   | https://leetcode.com/problems/path-with-maximum-gold/        | Backtracking             | medium |
 | 12   | https://leetcode.com/problems/merge-intervals/               | Sort                     | medium |
@@ -30,7 +30,7 @@
 | 14   | https://leetcode.com/problems/squares-of-a-sorted-array/     | Tow Pointer              | easy   |
 | 15   | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Tow Pointer              | easy   |
 | 16   | https://leetcode.com/problems/move-zeroes/                   | Two Pointer              | easy   |
-| 17   | https://leetcode.com/problems/increasing-order-search-tree/submissions/ | Depth-first-Search       | easy   |
+| 17   | https://leetcode.com/problems/increasing-order-search-tree/  | Depth-first-Search       | easy   |
 | 18   | https://leetcode.com/problems/leaf-similar-trees/            | Tree, Depth-first-Search | easy   |
 | 19   | https://leetcode.com/problems/single-number/                 | Bit Manipulation         | easy   |
 | 20   | https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/ | Bit Manipulation         | easy   |
