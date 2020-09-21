@@ -1,8 +1,8 @@
 # LeetCode 打卡活动（2020.09.04-2020.09.30) —— DP 专题一
 
 | 编号 | 题目                                                          |完成                              |
-| ---- | ------------------------------------------------------------ |[✅](Running_Sum_Of_1d_Array.go) |
-|70    |https://leetcode.com/problems/climbing-stairs                 |                              |
+| ---- | ------------------------------------------------------------ | -------------------------------- |
+|70    |https://leetcode.com/problems/climbing-stairs                 | [✅](Running_Sum_Of_1d_Array.go)|
 |62    |https://leetcode.com/problems/unique-paths/                   |                              |
 |63    |https://leetcode.com/problems/unique-paths-ii                 |                              |
 |322   | https://leetcode.com/problems/coin-change/                   |                              |
