@@ -1,38 +1,34 @@
 func getMaximumGold(grid [][]int) int {
-	rows := len(grid)
-	cols := len(grid[0])
-	maxSum := 0
-
-	for r := 0; r < rows; r++ {
-		for c := 0; c < cols; c++ {
-			if grid[r][c] != 0 {
-				count := dfs(&grid, r, c)
-				maxSum = Max(count, maxSum)
-			}
+	max, rows, cols := 0, len(grid), len(grid[0])
+	for i := 0; i < rows; i++ {
+		for j := 0; j < cols; j++ {
+			max = Max(max, getGold(&grid, rows, cols, i, j))
 		}
 	}
-
-	return maxSum
-
+	return max
 }
 
-func dfs(grid *[][]int, r, c int) int {
-	if r < 0 || r >= len(*grid) || c < 0 || c >= len((*grid)[0]) || (*grid)[r][c] == 0 {
+func getGold(grid *([][]int), rows int, cols int, x int, y int) int {
+	if x < 0 || x > rows-1 || y < 0 || y > cols-1 || (*grid)[x][y] == 0 {
 		return 0
+	} else {
+		tmp := (*grid)[x][y]
+		(*grid)[x][y] = 0
+		max := tmp + Max4(getGold(grid, rows, cols, x, y-1), getGold(grid, rows, cols, x, y+1), getGold(grid, rows, cols, x-1, y), getGold(grid, rows, cols, x+1, y))
+		(*grid)[x][y] = tmp
+		return max
 	}
-	sum := (*grid)[r][c]
-	val := (*grid)[r][c]
-	(*grid)[r][c] = 0
-	sum += Max(dfs(grid, r-1, c), Max(dfs(grid, r+1, c), Max(dfs(grid, r, c-1), dfs(grid, r, c+1))))
-	(*grid)[r][c] = val
-	return sum
-
 }
 
-func Max(a, b int) int {
+func Max(a int, b int) int {
 	if a > b {
 		return a
+	} else {
+		return b
 	}
-	return b
+}
+
+func Max4(a int, b int, c int, d int) int {
+	return Max(a, Max(b, Max(c, d)))
 }
 
