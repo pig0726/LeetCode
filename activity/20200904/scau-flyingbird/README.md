@@ -2,7 +2,7 @@
 
 | 编号 | 题目                                                          |完成                              |
 | ---- | ------------------------------------------------------------ | -------------------------------- |
-|70    |https://leetcode.com/problems/climbing-stairs                 | [✅](Running_Sum_Of_1d_Array.go)|
+|70    |https://leetcode.com/problems/climbing-stairs                 | [✅](ClimbingStairs.go)|
 |62    |https://leetcode.com/problems/unique-paths/                   |                              |
 |63    |https://leetcode.com/problems/unique-paths-ii                 |                              |
 |322   | https://leetcode.com/problems/coin-change/                   |                              |
