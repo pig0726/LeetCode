@@ -13,7 +13,7 @@
 | 9    | https://leetcode.com/problems/count-primes/                  | Math                     | easy   | [✅](Count_Primes.go)                                                            |
 | 10   | https://leetcode.com/problems/letter-tile-possibilities/     | Backtracking             | medium | [✅](LetterTilePossibilities.go)                                                            |
 | 11   | https://leetcode.com/problems/path-with-maximum-gold/        | Backtracking             | medium | [✅](PathWithMaximumGold.go)                                                            |
-| 12   | https://leetcode.com/problems/merge-intervals/               | Sort                     | medium | [✅]MergeIntervals.go)                                                             |
+| 12   | https://leetcode.com/problems/merge-intervals/               | Sort                     | medium | [✅](MergeIntervals.go)                                                             |
 | 13   | https://leetcode.com/problems/shuffle-string/                | Sort                     | easy   | [✅](ShuffleString.go) |
 | 14   | https://leetcode.com/problems/squares-of-a-sorted-array/     | Tow Pointer              | easy   | [✅](SquaresOfASortedArray.go)                                                             |
 | 15   | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Tow Pointer              | easy   |  [✅](RemoveDuplicatesFromSortedArray.go) |
