@@ -3,7 +3,7 @@
 | 编号 | 题目                                                          |完成                              |
 | ---- | ------------------------------------------------------------ | -------------------------------- |
 |70    |https://leetcode.com/problems/climbing-stairs                 | [✅](ClimbingStairs.go)|
-|62    |https://leetcode.com/problems/unique-paths/                   |                              |
+|62    |https://leetcode.com/problems/unique-paths/                   | [✅](UniquePaths.go)   |
 |63    |https://leetcode.com/problems/unique-paths-ii                 |                              |
 |322   | https://leetcode.com/problems/coin-change/                   |                              |
 |198   |https://leetcode.com/problems/house-robber                    |                              |
