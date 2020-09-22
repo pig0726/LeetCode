@@ -4,8 +4,8 @@
 | ---- | ------------------------------------------------------------ | -------------------------------- |
 |70    |https://leetcode.com/problems/climbing-stairs                 | [✅](ClimbingStairs.go)|
 |62    |https://leetcode.com/problems/unique-paths/                   | [✅](UniquePaths.go)   |
-|63    |https://leetcode.com/problems/unique-paths-ii                 |                              |
-|322   | https://leetcode.com/problems/coin-change/                   |                              |
+|63    |https://leetcode.com/problems/unique-paths-ii                 | [✅](UniquePaths_2.go) |
+|322   |https://leetcode.com/problems/coin-change/                   |                              |
 |198   |https://leetcode.com/problems/house-robber                    |                              |
 |213   |https://leetcode.com/problems/house-robber-ii                 |                              |
 |72    |https://leetcode.com/problems/edit-distance                   |                              |
@@ -18,12 +18,12 @@
 |523   |https://leetcode.com/problems/continuous-subarray-sum         |                              |
 |1191  |https://leetcode.com/problems/k-concatenation-maximum-sum     |                              |
 |2     |https://leetcode.com/problems/longest-palindromic-substring   |                              |
-| 64   | https://leetcode.com/problems/minimum-path-sum/              |                              |
-|931   | https://leetcode.com/problems/minimum-falling-path-sum/      |                              |
-|983   | https://leetcode.com/problems/minimum-cost-for-tickets/      |                              |
-|650   | https://leetcode.com/problems/2-keys-keyboard/               |                              |
-|1049  | https://leetcode.com/problems/last-stone-weight-ii/          |                              |
-|474   | https://leetcode.com/problems/ones-and-zeroes/               |                              |
-|221   | https://leetcode.com/problems/maximal-square/                |                              |
-|1240  | https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/ |                              |
-|871   | https://leetcode.com/problems/minimum-number-of-refueling-stops/ |                              |
+| 64   |https://leetcode.com/problems/minimum-path-sum/              |                              |
+|931   |https://leetcode.com/problems/minimum-falling-path-sum/      |                              |
+|983   |https://leetcode.com/problems/minimum-cost-for-tickets/      |                              |
+|650   |https://leetcode.com/problems/2-keys-keyboard/               |                              |
+|1049  |https://leetcode.com/problems/last-stone-weight-ii/          |                              |
+|474   |https://leetcode.com/problems/ones-and-zeroes/               |                              |
+|221   |https://leetcode.com/problems/maximal-square/                |                              |
+|1240  |https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/ |                              |
+|871   |https://leetcode.com/problems/minimum-number-of-refueling-stops/ |                              |
