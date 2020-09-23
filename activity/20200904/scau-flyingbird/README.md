@@ -5,7 +5,7 @@
 |70    |https://leetcode.com/problems/climbing-stairs                 | [✅](ClimbingStairs.go)|
 |62    |https://leetcode.com/problems/unique-paths/                   | [✅](UniquePaths.go)   |
 |63    |https://leetcode.com/problems/unique-paths-ii                 | [✅](UniquePaths_2.go) |
-|322   |https://leetcode.com/problems/coin-change/                   |                              |
+|322   |https://leetcode.com/problems/coin-change/                    | [✅](CoinChange.go)    |
 |198   |https://leetcode.com/problems/house-robber                    |                              |
 |213   |https://leetcode.com/problems/house-robber-ii                 |                              |
 |72    |https://leetcode.com/problems/edit-distance                   |                              |
