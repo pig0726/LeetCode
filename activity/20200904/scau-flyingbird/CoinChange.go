@@ -1,5 +1,3 @@
-package main
-
 func coinChange(coins []int, amount int) int {
 	dp := make([]int, amount+1)
 	for i := 0; i <= amount; i++ {
