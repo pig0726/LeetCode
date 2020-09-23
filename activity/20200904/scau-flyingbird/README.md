@@ -6,7 +6,7 @@
 |62    |https://leetcode.com/problems/unique-paths/                   | [✅](UniquePaths.go)   |
 |63    |https://leetcode.com/problems/unique-paths-ii                 | [✅](UniquePaths_2.go) |
 |322   |https://leetcode.com/problems/coin-change/                    | [✅](CoinChange.go)    |
-|198   |https://leetcode.com/problems/house-robber                    |                              |
+|198   |https://leetcode.com/problems/house-robber                    | [✅](HouseRobber.go)    |
 |213   |https://leetcode.com/problems/house-robber-ii                 |                              |
 |72    |https://leetcode.com/problems/edit-distance                   |                              |
 |10    |https://leetcode.com/problems/regular-expression-matching     |                              |
