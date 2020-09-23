@@ -4,8 +4,6 @@ func rob(nums []int) int {
 		return 0
 	} else if l == 1 {
 		return nums[0]
-	} else if l == 2 {
-		return Max(nums[0], nums[1])
 	}
 	dp := make([]int, l+1)
 	dp[0] = nums[0]
@@ -23,9 +21,3 @@ func Max(a, b int) int {
 		return b
 	}
 }
-
-
-
-
-
-
