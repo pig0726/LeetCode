@@ -8,9 +8,9 @@
 |322   |https://leetcode.com/problems/coin-change/                    | [✅](CoinChange.go)    |
 |198   |https://leetcode.com/problems/house-robber                    | [✅](HouseRobber.go)    |
 |213   |https://leetcode.com/problems/house-robber-ii                 | [✅](HouseRobber_2.go)  |
-|72    |https://leetcode.com/problems/edit-distance                   |                              |
+|72    |https://leetcode.com/problems/edit-distance                   |   |
 |10    |https://leetcode.com/problems/regular-expression-matching     |                              |
-|392   |https://leetcode.com/problems/is-subsequence                  |                              |
+|392   |https://leetcode.com/problems/is-subsequence                  | [✅](IsSubsequence.go) |
 |53    |https://leetcode.com/problems/maximum-subarray                |                              |
 |746   |https://leetcode.com/problems/min-cost-climbing-stairs        |                              |
 |121   |https://leetcode.com/problems/best-time-to-buy-and-sell-stock |                              |
