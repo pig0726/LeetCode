@@ -15,7 +15,7 @@
 |746   |https://leetcode.com/problems/min-cost-climbing-stairs        | [✅](MinCostClimbingStairs.go) |
 |121   |https://leetcode.com/problems/best-time-to-buy-and-sell-stock | [✅](BestTimeToBuyAndSellStock.go) |
 |1414  |https://leetcode.com/problems/matrix-block-sum                |                              |
-|523   |https://leetcode.com/problems/continuous-subarray-sum         |                              |
+|523   |https://leetcode.com/problems/continuous-subarray-sum         | [✅](ContinuousSubarraySum.go) |
 |1191  |https://leetcode.com/problems/k-concatenation-maximum-sum     |                              |
 |2     |https://leetcode.com/problems/longest-palindromic-substring   |                              |
 | 64   |https://leetcode.com/problems/minimum-path-sum/              |                              |
