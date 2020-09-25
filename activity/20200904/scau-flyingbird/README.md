@@ -13,7 +13,7 @@
 |392   |https://leetcode.com/problems/is-subsequence                  | [✅](IsSubsequence.go) |
 |53    |https://leetcode.com/problems/maximum-subarray                | [✅](MaximumSubarray.go) |
 |746   |https://leetcode.com/problems/min-cost-climbing-stairs        | [✅](MinCostClimbingStairs.go) |
-|121   |https://leetcode.com/problems/best-time-to-buy-and-sell-stock |                              |
+|121   |https://leetcode.com/problems/best-time-to-buy-and-sell-stock | [✅](BestTimeToBuyAndSellStock.go) |
 |1414  |https://leetcode.com/problems/matrix-block-sum                |                              |
 |523   |https://leetcode.com/problems/continuous-subarray-sum         |                              |
 |1191  |https://leetcode.com/problems/k-concatenation-maximum-sum     |                              |
