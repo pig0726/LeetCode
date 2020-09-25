@@ -18,7 +18,7 @@
 |523   |https://leetcode.com/problems/continuous-subarray-sum         | [✅](ContinuousSubarraySum.go) |
 |1191  |https://leetcode.com/problems/k-concatenation-maximum-sum     |                              |
 |2     |https://leetcode.com/problems/longest-palindromic-substring   |                              |
-| 64   |https://leetcode.com/problems/minimum-path-sum/              |                              |
+| 64   |https://leetcode.com/problems/minimum-path-sum/              | [✅](MinimumPathSum.go) |
 |931   |https://leetcode.com/problems/minimum-falling-path-sum/      |                              |
 |983   |https://leetcode.com/problems/minimum-cost-for-tickets/      |                              |
 |650   |https://leetcode.com/problems/2-keys-keyboard/               |                              |
