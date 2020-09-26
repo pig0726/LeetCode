@@ -19,7 +19,7 @@
 |1191  |https://leetcode.com/problems/k-concatenation-maximum-sum     |                              |
 |2     |https://leetcode.com/problems/longest-palindromic-substring   |                              |
 | 64   |https://leetcode.com/problems/minimum-path-sum/              | [✅](MinimumPathSum.go) |
-|931   |https://leetcode.com/problems/minimum-falling-path-sum/      |                              |
+|931   |https://leetcode.com/problems/minimum-falling-path-sum/      | [✅](MinimumFallingPathSum.go) |
 |983   |https://leetcode.com/problems/minimum-cost-for-tickets/      |                              |
 |650   |https://leetcode.com/problems/2-keys-keyboard/               |                              |
 |1049  |https://leetcode.com/problems/last-stone-weight-ii/          |                              |
