@@ -23,7 +23,7 @@
 |983   |https://leetcode.com/problems/minimum-cost-for-tickets/      | [✅](MinimumCostForTickets.go) |
 |650   |https://leetcode.com/problems/2-keys-keyboard/               | [✅](2KeysKeyboard.go) |
 |1049  |https://leetcode.com/problems/last-stone-weight-ii/          | [✅](LastStoneWeight2.go) |
-|474   |https://leetcode.com/problems/ones-and-zeroes/               |                              |
+|474   |https://leetcode.com/problems/ones-and-zeroes/               | [✅](OnesAndZeroes.go) |
 |221   |https://leetcode.com/problems/maximal-square/                |                              |
 |1240  |https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/ |                              |
 |871   |https://leetcode.com/problems/minimum-number-of-refueling-stops/ |                              |
