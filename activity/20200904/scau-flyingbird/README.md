@@ -21,7 +21,7 @@
 | 64   |https://leetcode.com/problems/minimum-path-sum/              | [✅](MinimumPathSum.go) |
 |931   |https://leetcode.com/problems/minimum-falling-path-sum/      | [✅](MinimumFallingPathSum.go) |
 |983   |https://leetcode.com/problems/minimum-cost-for-tickets/      | [✅](MinimumCostForTickets.go) |
-|650   |https://leetcode.com/problems/2-keys-keyboard/               |                              |
+|650   |https://leetcode.com/problems/2-keys-keyboard/               | [✅](2KeysKeyboard.go) |
 |1049  |https://leetcode.com/problems/last-stone-weight-ii/          |                              |
 |474   |https://leetcode.com/problems/ones-and-zeroes/               |                              |
 |221   |https://leetcode.com/problems/maximal-square/                |                              |
