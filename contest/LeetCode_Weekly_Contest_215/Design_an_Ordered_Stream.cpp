@@ -1,14 +1,15 @@
 class OrderedStream {
-public:
-    int n;
-    int ptr = 0;
-    vector<string> data;
-    vector<bool> vis;
+public:      
+    int n; // 数组长度
+    vector<string> data; // 数组
+    vector<bool> vis; // 标记数组，标记下标是否有元素
+    int ptr; // 指针
     
     OrderedStream(int n) {
         this->n = n;
         data.resize(n);
         vis.assign(n, false);
+        ptr = 0;
     }
     
     vector<string> insert(int id, string value) {
@@ -17,11 +18,10 @@ public:
         vis[id] = true;
         
         vector<string> ret;
-        for (int i = ptr; i < n && vis[i]; i++) {
-            ret.push_back(data[i]);
+        while (ptr < n && vis[ptr]) {
+            ret.push_back(data[ptr]);
             ptr++;
         }
-        
         return ret;
     }
 };
